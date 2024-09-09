@@ -34,7 +34,6 @@ class BookingViewController: UIViewController, UIPickerViewDataSource, UIPickerV
     let currentLatitude = UserDefaults.standard.double(forKey: "currentLatitude")
     let currentLongitude = UserDefaults.standard.double(forKey: "currentLongitude")
     
-    // UI Elements
     private let scrollView: UIScrollView = {
         let scrollView = UIScrollView()
         scrollView.translatesAutoresizingMaskIntoConstraints = false
