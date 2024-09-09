@@ -7,23 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC374A382C8C6868002184FD /* MovieBookingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC374A372C8C6868002184FD /* MovieBookingView.swift */; };
+		BC770B1A2C8E442E00C74AB4 /* ExtensionMovieBookingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC770B192C8E442E00C74AB4 /* ExtensionMovieBookingView.swift */; };
+		BC770B1D2C8E447700C74AB4 /* MovieBookingViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC770B1C2C8E447700C74AB4 /* MovieBookingViewDelegate.swift */; };
 		BC8174DE2C8B5B930093920F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8174DD2C8B5B930093920F /* AppDelegate.swift */; };
 		BC8174E02C8B5B930093920F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8174DF2C8B5B930093920F /* SceneDelegate.swift */; };
 		BC8174E22C8B5B930093920F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8174E12C8B5B930093920F /* ViewController.swift */; };
-		BC8174E52C8B5B930093920F /* Base in Resources */ = {isa = PBXBuildFile; fileRef = BC8174E42C8B5B930093920F /* Base */; };
 		BC8174E72C8B5B940093920F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC8174E62C8B5B940093920F /* Assets.xcassets */; };
 		BC8174EA2C8B5B940093920F /* Base in Resources */ = {isa = PBXBuildFile; fileRef = BC8174E92C8B5B940093920F /* Base */; };
+		BC8174F42C8B5C2D0093920F /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8174F32C8B5C2D0093920F /* Model.swift */; };
+		BC8174F62C8B5C970093920F /* MainScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8174F52C8B5C970093920F /* MainScreenViewController.swift */; };
+		BC8174FA2C8B6ECE0093920F /* MovieCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8174F92C8B6ECE0093920F /* MovieCollectionViewCell.swift */; };
+		BC8174FC2C8B88010093920F /* MovieDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8174FB2C8B88010093920F /* MovieDataManager.swift */; };
+		BC8174FE2C8B8C740093920F /* jsonformatter.json in Resources */ = {isa = PBXBuildFile; fileRef = BC8174FD2C8B8C740093920F /* jsonformatter.json */; };
+		BC8175002C8C33CC0093920F /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8174FF2C8C33CC0093920F /* MovieDetailsViewController.swift */; };
+		BC8175022C8C37660093920F /* BookingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8175012C8C37660093920F /* BookingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BC374A372C8C6868002184FD /* MovieBookingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieBookingView.swift; sourceTree = "<group>"; };
+		BC770B192C8E442E00C74AB4 /* ExtensionMovieBookingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionMovieBookingView.swift; sourceTree = "<group>"; };
+		BC770B1C2C8E447700C74AB4 /* MovieBookingViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieBookingViewDelegate.swift; sourceTree = "<group>"; };
 		BC8174DA2C8B5B930093920F /* InoxApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InoxApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC8174DD2C8B5B930093920F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BC8174DF2C8B5B930093920F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		BC8174E12C8B5B930093920F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BC8174E42C8B5B930093920F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BC8174E62C8B5B940093920F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC8174E92C8B5B940093920F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC8174EB2C8B5B940093920F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC8174F32C8B5C2D0093920F /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		BC8174F52C8B5C970093920F /* MainScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenViewController.swift; sourceTree = "<group>"; };
+		BC8174F92C8B6ECE0093920F /* MovieCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCollectionViewCell.swift; sourceTree = "<group>"; };
+		BC8174FB2C8B88010093920F /* MovieDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDataManager.swift; sourceTree = "<group>"; };
+		BC8174FD2C8B8C740093920F /* jsonformatter.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = jsonformatter.json; sourceTree = "<group>"; };
+		BC8174FF2C8C33CC0093920F /* MovieDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewController.swift; sourceTree = "<group>"; };
+		BC8175012C8C37660093920F /* BookingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +55,67 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BC374A392C8CD0D4002184FD /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				BC8174F52C8B5C970093920F /* MainScreenViewController.swift */,
+				BC8175012C8C37660093920F /* BookingViewController.swift */,
+				BC8174FF2C8C33CC0093920F /* MovieDetailsViewController.swift */,
+				BCDA3EE42C8D6E1B0074E1E9 /* Extensions */,
+				BC374A3E2C8CD134002184FD /* Views */,
+				BC770B1B2C8E445E00C74AB4 /* Protocals */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		BC374A3A2C8CD0F1002184FD /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				BC8174F92C8B6ECE0093920F /* MovieCollectionViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		BC374A3B2C8CD100002184FD /* MODEL */ = {
+			isa = PBXGroup;
+			children = (
+				BC8174F32C8B5C2D0093920F /* Model.swift */,
+			);
+			path = MODEL;
+			sourceTree = "<group>";
+		};
+		BC374A3C2C8CD10D002184FD /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				BC8174FB2C8B88010093920F /* MovieDataManager.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		BC374A3E2C8CD134002184FD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BC374A372C8C6868002184FD /* MovieBookingView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BC770B182C8E43D100C74AB4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BC8174FD2C8B8C740093920F /* jsonformatter.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BC770B1B2C8E445E00C74AB4 /* Protocals */ = {
+			isa = PBXGroup;
+			children = (
+				BC770B1C2C8E447700C74AB4 /* MovieBookingViewDelegate.swift */,
+			);
+			path = Protocals;
+			sourceTree = "<group>";
+		};
 		BC8174D12C8B5B930093920F = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +135,27 @@
 		BC8174DC2C8B5B930093920F /* InoxApp */ = {
 			isa = PBXGroup;
 			children = (
+				BC8174EB2C8B5B940093920F /* Info.plist */,
+				BC770B182C8E43D100C74AB4 /* Resources */,
+				BC374A3C2C8CD10D002184FD /* Service */,
+				BC374A3B2C8CD100002184FD /* MODEL */,
+				BC374A3A2C8CD0F1002184FD /* Cells */,
+				BC374A392C8CD0D4002184FD /* ViewControllers */,
 				BC8174DD2C8B5B930093920F /* AppDelegate.swift */,
 				BC8174DF2C8B5B930093920F /* SceneDelegate.swift */,
 				BC8174E12C8B5B930093920F /* ViewController.swift */,
-				BC8174E32C8B5B930093920F /* Main.storyboard */,
 				BC8174E62C8B5B940093920F /* Assets.xcassets */,
 				BC8174E82C8B5B940093920F /* LaunchScreen.storyboard */,
-				BC8174EB2C8B5B940093920F /* Info.plist */,
 			);
 			path = InoxApp;
+			sourceTree = "<group>";
+		};
+		BCDA3EE42C8D6E1B0074E1E9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BC770B192C8E442E00C74AB4 /* ExtensionMovieBookingView.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +216,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC8174FE2C8B8C740093920F /* jsonformatter.json in Resources */,
 				BC8174E72C8B5B940093920F /* Assets.xcassets in Resources */,
 				BC8174EA2C8B5B940093920F /* Base in Resources */,
-				BC8174E52C8B5B930093920F /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +229,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC770B1A2C8E442E00C74AB4 /* ExtensionMovieBookingView.swift in Sources */,
+				BC8174F62C8B5C970093920F /* MainScreenViewController.swift in Sources */,
+				BC374A382C8C6868002184FD /* MovieBookingView.swift in Sources */,
+				BC8175002C8C33CC0093920F /* MovieDetailsViewController.swift in Sources */,
 				BC8174E22C8B5B930093920F /* ViewController.swift in Sources */,
 				BC8174DE2C8B5B930093920F /* AppDelegate.swift in Sources */,
+				BC8174FA2C8B6ECE0093920F /* MovieCollectionViewCell.swift in Sources */,
 				BC8174E02C8B5B930093920F /* SceneDelegate.swift in Sources */,
+				BC770B1D2C8E447700C74AB4 /* MovieBookingViewDelegate.swift in Sources */,
+				BC8174FC2C8B88010093920F /* MovieDataManager.swift in Sources */,
+				BC8175022C8C37660093920F /* BookingViewController.swift in Sources */,
+				BC8174F42C8B5C2D0093920F /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		BC8174E32C8B5B930093920F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BC8174E42C8B5B930093920F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BC8174E82C8B5B940093920F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -297,7 +389,6 @@
 				INFOPLIST_FILE = InoxApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -325,7 +416,6 @@
 				INFOPLIST_FILE = InoxApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
