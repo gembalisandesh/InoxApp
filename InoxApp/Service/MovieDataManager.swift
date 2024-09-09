@@ -275,5 +275,4 @@ class DataManager {
 
 enum DataManagerError: Error {
     case fileNotFound
-    case movieNotFound(movieName: String)
 }

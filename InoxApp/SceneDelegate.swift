@@ -14,8 +14,6 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
             guard let windowScene = (scene as? UIWindowScene) else { return }
-
-            // Create a new UIWindow and set the root view controller to a UINavigationController
             window = UIWindow(windowScene: windowScene)
             let mainVC = MainScreenViewController()
             let navController = UINavigationController(rootViewController: mainVC)
